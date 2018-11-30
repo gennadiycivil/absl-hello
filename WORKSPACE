@@ -13,6 +13,7 @@
 # limitations under the License.
 
 workspace(name = "com_google_absl_hello_world")
+load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 
 # abseil
 http_archive(
